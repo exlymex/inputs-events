@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-box">
+            <h1 class="title">Create your account</h1>
+        </div>
+        <form>
+            <p>First Name</p>
+            <input class = 'form-name' type="text" placeholder="type here..." required>
+            <p>Second name</p>
+            <input class = 'form-surname' type="text" placeholder="type here..." required>
+            <p>Email address</p>
+            <input class = 'form-address' type="text" placeholder="enter email" required>
+            <div class="div">
+                <input onclick = 'inputSex()' type="radio" value = 'man' name = 'sex'><span>man</span>
+                <input onclick = 'inputSex()' type="radio" value = 'woman' name = 'sex' ><span>woman</span>
+            </div>
+            <p>Position</p>
+            <select id = 'position'>
+                <option value="" selected>Choose...</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="QC/QA">QC/QA</option>
+            </select>
+            <p><input id = 'checkbox' type="checkbox" required ><span>I agree all statements in terms of servise</span></p>
+            <div class="sign-up" ><p class = 'title'>Sign Up</p></div>
+        </form>
+    </div>
+    <div class="wrapper">
+       <div class = 'header'>
+           <img id = 'user' src = 'woman.png'>
+           <img id = 'user2' src = 'man.png'>
+       </div>
+       <div class = 'info'>
+           <h2 id = 'name-box'></h2>
+           <p id = 'email-box'></p>
+           <p id = 'job-box'></p>
+           <hr>
+            <div class="sign-out">Sign Out</div>
+       </div>
+       <div class="icons">
+            <div class="icons-box">
+                <img class = 'icons-logo' src="github.png" alt="">
+                <img class = 'icons-logo' src="linked-in-logo-of-two-letters.png" alt="">
+                <img class = 'icons-logo' src="facebook-app-symbol.png" alt="">
+            </div>
+       </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>

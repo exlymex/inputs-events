@@ -1,0 +1,27 @@
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+input{
+    height: 24px;
+    border:  1px solid gray;
+    opacity: 0.5;
+    width: 20%;
+}
+.inputs{
+    height: 100%;
+    display: flex;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    background-color:mediumseagreen;
+    margin: 0px 15px 0px 15px;
+}
+.move-text{
+    color: white;
+    padding:6px 130px;
+}
